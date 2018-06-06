@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "AvenirNextLTPro-Regular";
+  src: local ("AvenirNextLTPro-Regular");
+  src: url("fonts/AvenirNextLTPro-Regular.eot");
+  src:url("fonts/AvenirNextLTPro-Regular.woff"), url("fonts/AvenirNextLTPro-Regular.woff2"),url("fonts/AvenirNextLTPro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AvenirNextLTPro-Regular", "Helvetica";
+}
+
+/* header {
+  width: 100%;
+} */
+
+header > .banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.banner > img {
+  max-width: 100%;
+  height: auto;
+}
+
+header > nav {
+  width: 100%;
+  margin-bottom: 50px;
+  }
+
+header > nav > ul {
+  float:left;
+  /* left:50%; */
+  list-style:none;
+  margin:0 auto;
+  /* position:relative; */
+  }
+
+header > nav > ul > li {
+  float:left;
+  /* position:relative; */
+  /* right:50%; */
+  margin: 0 50px;
+  color: #777977;
+  font-size: 13px;
+  }
+
+.fa-home {
+  color: #777977;
+  font-size: 13px;
+  opacity: .5;
+}
+
+p {
+    width: auto;
+    color: #777977;
+    text-align: center;
+    clear: both;
+    font-size: 15px;
+
+}
+
+/* Section 1 text*/
+
+h3 {
+  width: 100%;
+  margin: 50px 0;
+  font-size: 20px;
+  color: #E93F68;
+  text-align: center;
+}
+
+.txt1{
+  column-count: 2;
+  column-gap: 50px;
+  height: auto;
+  max-width: 100%;
+  margin: 20px 50px 20px;
+  text-align: center;
+}
+
+.txt1 > ol {
+   list-style: decimal-leading-zero;
+   color: #E93F68 !important;
+
+ }
+
+.txt1 > ol > li {
+   padding: 15px;
+   color: #5d5e5d;
+   text-align: left;
+ }
+
+ /* Section 2 imagenes */
+
+section > .pictures {
+  column-count:5;
+  width: 100%;
+  height: 600px;
+  /* max-width: 1080px; */
+  margin: 50px;
+}
+
+article{
+  margin: 20px;
+}
+
+.text{
+  color:#777977;
+  font-size: 15px;
+}
+
+h5 {
+  color:#777977;
+  font-size: 10px;
+}
+
+/* section > article:hover {
+  color: white;
+  transition: background-color .5s ease-out;
+  opacity: .5; */
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00679A;
+  font-size: 20px;
+
+}
+
+/* Pagina 2 - desayuno */
+
+.carrusel {
+  position: relative;
+  height: 500px;
+  max-width: 100%;
+  padding: 0 2rem;
+  margin: 2rem 0;
+  margin-bottom: 20px;
+}
+
+.slick-prev {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  z-index: 100;
+}
+
+.slick-next {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  z-index: 100;
+}
+
+.item1 {
+  width: auto;
+  height: 500px;
+  background-image: url('images/c-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item2 {
+  height: 500px;
+  background-image: url('images/c-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  height: 500px;
+  background-image: url('images/c-3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item4 {
+  height: 500px;
+  background-image: url('images/c-4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item5 {
+  height: 500px;
+  background-image: url('images/c-5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  height: 500px;
+  background-image: url('images/c-6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item7 {
+  height: 500px;
+  background-image: url('images/c-7.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item8 {
+  height: 500px;
+  background-image: url('images/c-8.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item9 {
+  height: 500px;
+  background-image: url('images/c-9.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item10 {
+  height: 500px;
+  background-image: url('images/c-10.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item11 {
+  height: 500px;
+  background-image: url('images/c-11.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item12 {
+  height: 500px;
+  background-image: url('images/c-12.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item13 {
+  height: 500px;
+  background-image: url('images/c-13.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item14 {
+  height: 500px;
+  background-image: url('images/c-14.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item15 {
+  height: 500px;
+  background-image: url('images/c-15.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.return {
+  text-align: center;
+  margin: 15px auto;
+  color: #00679A;
+  font-size-adjust: auto;
+}
+
+/*  Responsive*/
+/*  nav*/
+@media screen and (max-width 480px) {
+  nav ul {
+    width: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    float: none;
+  }
+
+}
+
+/* text */
+
+@media screen (max-width 600px;) {
+  .txt1{
+    display: block;
+    column-count: 1;
+    width: auto;
+
+  }
+
+  .text1 ol {
+    width: 100%
+  }
+}
+
+/* elemntos para responsive nav - section txt1 - pictures-articles, - carrusel*/
